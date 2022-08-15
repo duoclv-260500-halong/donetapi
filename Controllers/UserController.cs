@@ -24,7 +24,7 @@ public class UserController: ControllerBase
             LastName = User.LastName,
             UserName = User.UserName,
             Password = User.Password,
-            DayOfBirth = User.DayOfBirth
+            CreatedAt = User.CreatedAt
         };
 
         DBContext.Users.Add(entity);
